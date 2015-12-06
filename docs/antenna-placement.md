@@ -17,3 +17,5 @@ Electronic devices may produce RF noise that could affect reception of the GPS s
 Antenna has to be placed on a ground plane which reduces multipath, provides shielding and improves signal reception. Ground plane is a conductive plate, it may be a piece of metal, a roof of a car, a metal roof of a building, etc.
 
 Tallysman TW4721 requires ground plane no less than 70x70mm.
+
+WARNING! AVOID SOLDERING ON THE COAX CABLE OF THE CURRENT TALLYSMAN GPS ANTENNAS. THE INTERNAL CABLE IS NOT HEAT RESSISTANT TEFLON AND IS THERFORE VERY DIFFICULT TO SOLDER ON TO. IF YOU HEAT THE SHIELD, CHANCES ARE YOU MELT THE INNER CONDUCTOR SHORTING OUT THE RF LINE!
