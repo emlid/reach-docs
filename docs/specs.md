@@ -37,19 +37,19 @@ The following printable 3D cases are available for Reach users:
 
 <script src="https://embed.github.com/view/3d/emlid/hardware/master/Reach_cases/Reach_case_assembly_Rev_C.STL"></script>
 
-Download [top and bottom halfes](https://github.com/emlid/hardware/tree/master/Reach_cases/Rev_C_parts) of the case to print it.
+Download [top and bottom halves](https://github.com/emlid/hardware/tree/master/Reach_cases/Rev_C_parts) of the case to print it.
 
 **Reach case model D:**
 
 <script src="https://embed.github.com/view/3d/emlid/hardware/master/Reach_cases/Reach_case_assembly_Rev_D.STL"></script>
 
-Download [top and bottom halfes](https://github.com/emlid/hardware/tree/master/Reach_cases/Rev_D_parts) of the case to print it.
+Download [top and bottom halves](https://github.com/emlid/hardware/tree/master/Reach_cases/Rev_D_parts) of the case to print it.
 
 **Reach case model E:**
 
 <script src="https://embed.github.com/view/3d/emlid/hardware/master/Reach_cases/Reach_case_assembly_Rev_E.STL"></script>
 
-Download [top and bottom halfes](https://github.com/emlid/hardware/tree/master/Reach_cases/Rev_E_parts) of the case to print it.
+Download [top and bottom halves](https://github.com/emlid/hardware/tree/master/Reach_cases/Rev_E_parts) of the case to print it.
 
 For assebmly cases D and E use DIN-7981 screw (thread size 2.2 mm, length either 6.5 or 9.5 mm). Model C can be assembled using scotch tape.
 
