@@ -1,4 +1,3 @@
-## Hardware integration
 
 Reach supports various accessories via it's built-in USB OTG port and UART interface on the DF13 connector
 
