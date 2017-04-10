@@ -8,7 +8,7 @@ During boot Reach will go through 3 steps:
 
 ### Network scan
 
-Reach will indicate a network scan with <font color="yellow">yellow</font> blinks. If a known Wi-Fi network is detected, Reach will connect to it and set the LED <font color="blue">blue</font>. If the scan found no familiar networks, the LED will light <font color="green">green</font>.
+Reach will indicate a network scan with <font color="yellow">yellow</font> blinks. If a known Wi-Fi network is detected, Reach will connect to it and set the LED <font color="blue">blue</font>. If the scan found no familiar networks, a hotspot is started and the LED will light <font color="green">green</font>.
 
 ### Time sync
 
