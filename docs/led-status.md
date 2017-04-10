@@ -2,7 +2,7 @@
 
 During boot Reach will go through 3 steps:
 
-* Network search
+* Network scan
 * Time sync
 * ReachView launch
 
