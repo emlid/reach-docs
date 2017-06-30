@@ -46,6 +46,8 @@ Connect Reach's upper DF13 port with Navio's **UART** port.
 
 ## Configuring Reach to work with ArduPilot
 
+### Rover setup
+
 !!! note
     The serial connection is used to accept base corrections and send solution at the same time.
 
@@ -135,6 +137,8 @@ To enable and configure GPS inject options in Mission planner press **"ctrl+F"**
 <div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-inject-settings.png" style="width: 70%;"></div>
 
 In the new window, choose parameters for base connection. Reach in base mode supports TCP and serial modes. For the sake of this example, **let's assume base corrections are coming from another Reach in base TCP server mode**. This is a setup we usually use in our test flights.
+
+### Base setup
 
 Let's configure our Reach device:
 
