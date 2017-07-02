@@ -165,3 +165,27 @@ And port the server port number.
 Finally, check the corrections are coming in.
 
 <div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-inject-connected-new.png" style="width: 70%;"></div>
+
+### For an improved ardupilot experience
+
+[recompile ardupilot code](http://ardupilot.org/dev/docs/building-px4-with-make.html) using the [extend RTK information support pull request](https://github.com/ArduPilot/ardupilot/pull/6424) or directly from:
+
+`git clone --depth 5 https://github.com/amilcarlucas/ardupilot.git -b pr-add-gps-rtk-mavlink-messages`
+
+and for reach use the following repository instead of the official one mentioned above in step 4:
+
+`git clone --depth 5 https://github.com/amilcarlucas/RTKLIB.git -b IAV`
+ 
+You will have to use a single unified 3DR/RFD900 Mavlink based datalink for this to work. In other words: Reach rover must ONLY be connected to serial4 of ardupilot, reach base MUST ONLY be connected to your GCS PC via USB cable and set up as a TCP/IP RTCM injecting server. This will not work if you use a side channel (for example a second set of 3DR radios) to inject RTCM corrections.
+
+The advantages of this improved ardupilot integration are:
+
+1. Fixes a couple of bugs in emlid implementation, that prevent proper ardupilot integration
+
+2. Adds information only present in ReachView into Mavlink. So you no longer need to have ReachView open on your ground station ... just use QGroundControl mavlink inspector to get the same info:
+<div style="text-align: center;"><img src="https://user-images.githubusercontent.com/24453563/27764421-45f867e2-5e99-11e7-8811-ae6e3ae6b582.png" style="width: 60%;"></div>
+
+
+3. Normally the range of the 3DR radios used to carry the Mavlink messages is bigger than the reach WLAN, so your range will increase.
+
+4. You can disable WLAN on both reach base and reach rover modules, that should prevent and/or reduce interference.
