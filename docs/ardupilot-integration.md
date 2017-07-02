@@ -165,3 +165,37 @@ And port the server port number.
 Finally, check the corrections are coming in.
 
 <div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-inject-connected-new.png" style="width: 70%;"></div>
+
+### How to recompile reach RTK receiver source code:
+
+1. Connect reach to internet using a Wi-Fi access point/router. Steps for doing that are explained https://docs.emlid.com/reach/common/reachview/
+
+2. Connect your PC to the same Wi-Fi access point/router.
+
+3. Open a SSH connection from your PC to the Reach (using [putty](http://www.putty.org/) for example).
+
+   Username: `root`
+
+   Password: `emlidreach`
+
+4. Shallow clone the repository with the source code. On the ssh shell type:
+
+  `git clone --depth 10 https://github.com/emlid/RTKLIB.git -b reach`
+
+5. Edit the source code that you just checked out to meet your needs. Typically you only have to change the `RTKLIB/src/erb.c` file.
+
+6. Compile the code:
+
+`cd RTKLIB/app/rtkrcv/gcc`
+`make`
+
+7. Stop the `rtkrcv` process that is running on reach before installing a new one:
+
+`pidof rtkrcv | xargs kill -9`
+
+8. `make install` is currently broken, so to install you need to manually copy the rtkrcv file:
+
+`cp rtkrcv /usr/bin/RTKLIB/app/rtkrcv/gcc/rtkrcv/`
+
+9. Reboot your reach and enjoy the new code:
+`reboot` 
