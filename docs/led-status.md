@@ -16,7 +16,7 @@ During boot, Reach enters a network scan state in which it will try to connect t
 
 * Scanning - **fast <font color="blue">blue</font> blinks**
 * Client Wi-Fi mode - **<font color="blue">blue</font>**
-* Hotspot Wi-Fi mode - **<font color="cyan">cyan</font>**
+* Hotspot Wi-Fi mode - **<span style="color: white; background-color: black">white</span>**
 
 ### Time sync
 
