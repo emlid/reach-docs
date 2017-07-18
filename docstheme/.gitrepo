@@ -7,5 +7,5 @@
 	remote = git@github.com:emlid/docstheme.git
 	branch = master
 	commit = 2b7bb3ab8e1173ea5ac6f4c92ee29a5280d1c3d1
-	parent = 9873fdc39dbc14db1734e75f91cbc74c02dad8b4
+	parent = bcf8db65df2dc6fc52b0c9680006e53cffc37c51
 	cmdver = 0.3.1
