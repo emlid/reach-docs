@@ -29,10 +29,10 @@ During boot, Reach enters a network scan state in which it will try to connect t
 
 After network configuration is done, **<font color="magenta">magenta</font> blinks** will be added to the LED. They are shown during time sync.
 
-### ReachView launch and operation
-
-!!! note
+!!! attention
     The app will not launch until the time sync is complete. Internet connection allows this to happen automatically, but in hotspot mode Reach requires a connected antenna with some satellite visibility.
+
+### ReachView launch and operation
 
 After the time sync is done, the **magenta blinks** stop and ReachView is launched. **<font color="green">Green</font> solid** light will take its place, showing app start. You can see several additional states:
 
