@@ -87,7 +87,7 @@ For this you can use:
 
 * ["**Zenmap**"](https://nmap.org/zenmap/) on Windows. 
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/fing.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../img/reach/quickstart/fing.png" style="width: 500px;"></div><br>
 
 * Reach will show up as "**Murata Manufacturing**" device in these apps.
 
@@ -106,19 +106,19 @@ Since ReachView v.2.8.0 you can connect to your Reach device with an app using y
 
 After launching the app you'll see the list of the available receivers in your network. 
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_ios_android.png" style="width: 400px;"></div><br>
+<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_ios_android.png" style="width: 400px;"></div><br>
 
 ## Updating ReachView
 
 After connecting to Reach you will see ReachView Updater again which will install latest updates.
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_finish.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_updater_finish.png" style="width: 350px;"></div><br>
 
 * Press **Reboot and go to the app!** button. Wait while device reboots.
 
 * In about a minute refresh the page with ReachView app.
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_loading.png" style="width: 800px;"></div><br>
+<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_loading.png" style="width: 800px;"></div><br>
 
 
 ## Working with ReachView app
