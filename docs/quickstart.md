@@ -73,9 +73,11 @@ After connecting to the network hosted by reach, open a web browser on your smar
     You can find Reach on **http://reach.local** or **http://192.168.42.1**.
     Check your network name and password and try again.  
 
-## Accessing Reach device in a network
+## Accessing Reach RS device in a network
 
-After connecting Reach device to an existing Wi-Fi network, you will need to identify it's IP.
+After connecting Reach device to an existing Wi-Fi network, you will need to identify it's IP. You may either use network scanning tools or use ReachView app for Android/iOS. 
+
+### Network scanning tools
 
 For this you can use:
 
@@ -85,7 +87,7 @@ For this you can use:
 
 * ["**Zenmap**"](https://nmap.org/zenmap/) on Windows. 
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/fing.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/fing.png" style="width: 500px;"></div><br>
 
 * Reach will show up as "**Murata Manufacturing**" device in these apps.
 
@@ -93,15 +95,30 @@ For this you can use:
 
 Read more on resolving IP addresses in the [ReachView section](common/reachview/).
 
-* After that you will see ReachView Updater again which will install latest updates.
+### App for iOS/Android
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_updater_finish.png" style="width: 350px;"></div><br>
+Since ReachView v.2.8.0 you can connect to your Reach device with an app using your Android or iOS device.
+
+
+| Download links |  |
+|-------------|----------|
+|[Google Play](https://play.google.com/store/apps/details?id=com.reachview)|[App Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)|
+
+After launching the app you'll see the list of the available receivers in your network. 
+
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_ios_android.png" style="width: 400px;"></div><br>
+
+## Updating ReachView
+
+After connecting to Reach you will see ReachView Updater again which will install latest updates.
+
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_finish.png" style="width: 350px;"></div><br>
 
 * Press **Reboot and go to the app!** button. Wait while device reboots.
 
 * In about a minute refresh the page with ReachView app.
 
-<div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_loading.png" style="width: 800px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_loading.png" style="width: 800px;"></div><br>
 
 
 ## Working with ReachView app
