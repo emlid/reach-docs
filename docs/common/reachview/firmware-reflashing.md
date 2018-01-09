@@ -11,7 +11,7 @@ Most new features are released via ReachView app updates that can be updated sim
 
 You can get the latest version here:
 
-[**Reach Image v2.9.0  ↓**](https://files.emlid.com/images/ReachImage_v2.9.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)
+[**Reach Image v2.9  ↓**](https://files.emlid.com/images/ReachImage_v2.9.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)
 
 There are two ways to flash the image. Intel's Edison Board Configuration Tool and a CLI script.
 
@@ -73,11 +73,13 @@ Before flashing:
 
 * Install [Intel Edison driver](http://files.emlid.com/firmware-reflashing-tool/IntelEdisonDriverSetup1.2.1.exe)
 * Unzip downloaded image
+* Download copy of [dfu-util.exe](https://files.emlid.com/images/dfu-util/dfu-util.exe) and [libusb-1.0.dll](https://files.emlid.com/images/dfu-util/libusb-1.0.dll)
+* Place these files in the same folder as the image files
 * Unplug Reach if it's plugged in
 
 To flash:
 
-1. `cd` into the image directory
+1. Navigate to the image directory
 2. Run `flashall.bat`
 3. Plug Reach in
 4. Monitor progress in the terminal window
