@@ -42,7 +42,8 @@ pages:
   - Base mode: common/reachview/base-mode.md
   - Logging: common/reachview/logging.md
   - Camera control: common/reachview/camera-control.md
-  - Wi-Fi/Bluetooth: common/reachview/connectivity.md
+  - Wi-Fi: common/reachview/wifi.md
+  - Bluetooth: common/reachview/bluetooth.md
   - Firmware reflashing: common/reachview/firmware-reflashing.md
   - Updater: common/reachview/updater.md
   - Changelogs: common/reachview/changelogs.md
