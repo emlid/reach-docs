@@ -69,7 +69,7 @@ Now configure position output:
 * Choose **UART** as the device
 * Choose the desired baud rate(38400 for default)
 * Choose **ERB** as position output format
-* Hit **Apply** button button to save settings
+* Hit **Apply** button to save settings
 
 <div style="text-align: center;"><img src="../img/reach/ardupilot-integration/reach-position-output.png" style="width: 100%;"></div>
 
