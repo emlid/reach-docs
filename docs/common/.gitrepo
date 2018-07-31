@@ -6,6 +6,6 @@
 [subrepo]
 	remote = git@github.com:emlid/reach-docs-common.git
 	branch = master
-	commit = c8b3bef09c7ccb84108f388b2c0e52ddaeb0f1c5
-	parent = 11c87cd1f3da28f4bad453d61f945a22f288e773
+	commit = 00c8a64db6dc49b3a14547152f4c3f961bf1b7f2
+	parent = d12a178732d59c7f0127fe96898c2e9c927e9e67
 	cmdver = 0.3.1
