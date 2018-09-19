@@ -38,11 +38,17 @@ The following guide will show how to configure both Navio or Pixhawk and Reach t
 
 To provide RTK solution to Pixhawk, Reach needs to be connected via a serial port. You can do that by plugging the serial cable into Reach's upper DF13 port and Pixhawk's **"Serial 4/5"** connector.
 
-## Connecting Reach to Navio
+## Connecting Reach to Navio over UART
 
 <div style="text-align: center;"><img src="../img/reach/ardupilot-integration/navio2-reach.png" style="width: 500px;"></div>
 
 Connect Reach's upper DF13 port with Navio's **UART** port.
+
+## Connecting Reach to Navio over USB
+
+<div style="text-align: center;"><img src="../img/reach/ardupilot-integration/navio2-reach-usb.jpg" style="width: 500px;"></div>
+
+Connect Reach's Micro-USB port with RPi's **USB** port.
 
 ## Configuring Reach to work with ArduPilot
 
@@ -55,7 +61,7 @@ Start with configuration base correction input:
 
 * Select **Correction input** tab
 * Select **Serial**
-* Choose **UART** as the device
+* Choose **UART** or **USB-to-PC** as the device
 * Choose the desired baud rate(38400 for default)
 * Choose **RTCM3** as base corrections format
 * Hit **Apply** button to save settings
@@ -66,7 +72,7 @@ Now configure position output:
 
 * Select **Position output** tab
 * Select **Serial**
-* Choose **UART** as the device
+* Choose **UART** or **USB-to-PC** as the device
 * Choose the desired baud rate(38400 for default)
 * Choose **ERB** as position output format
 * Hit **Apply** button to save settings
@@ -104,9 +110,16 @@ After this, click **Save settings**. If your radio's firmware is outdated, updat
 !!! attention
     It is recommended to use Reach as a second GPS unit only.
 
-For launch ArduPilot on Navio add to your starting command the following argument:
+For launch ArduPilot on Navio add to your starting command one of the following arguments:
+
+* For UART connection
 ```bash
 -E /dev/ttyAMA0
+```
+
+* For USB connection
+```bash
+-E /dev/ttyACM0
 ```
 This will enable to use Reach as external GPS.
 
