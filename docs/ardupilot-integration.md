@@ -131,7 +131,7 @@ Start with settings **GPS-TYPE2** parameter to **"1"** - AUTO. This will enable 
 
 <div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-gps-type2-parameter.png" style="width: 800px;"></div>
 
-Next, set **SERIAL4_BAUD** parameter to the same baud rate, as chosen in ReachView solution output. Note the options corresponding to the different baud rates.
+Next, set **SERIAL4_BAUD** parameter (for UART connection) or **SERIAL0_BAUD** parameter (for USB connection) to the same baud rate, as chosen in ReachView solution output. Note the options corresponding to the different baud rates.
 
 <div style="text-align: center;"><img src="../img/reach/ardupilot-integration/mp-serial4-baud-parameter.png" style="width: 800px;"></div>
 
