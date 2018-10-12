@@ -1,3 +1,6 @@
+!!! tip ""
+	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
+
 ### A well-placed antenna is crucial to achieve good RTK positioning results
 
 You can place your smartphone near the window in your house and it will obtain GPS coordinates after some time, but for RTK such environment won't be sufficient. For RTK to work there are special requirements for antenna placement that are much more strict that for a standalone GPS.

@@ -1,3 +1,6 @@
+!!! tip ""
+	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
+
 ## Intro
 
 In this quick tutorial we will show you how to two set up two Reach devices as a base and a rover with correction link over Wi-Fi.

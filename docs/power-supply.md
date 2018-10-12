@@ -1,3 +1,6 @@
+!!! tip ""
+	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
+
 ## How to power Reach RTK
 
 Emlid Reach RTK module can be powered using **Micro-USB** port or **DF13** ports. Power circuit is shared for all ports, so when you power the device over one port it will pass power to other ports.

@@ -1,3 +1,7 @@
+!!! tip ""
+	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
+
+
 !!! success " "
     LED functionality is available with ReachView version 2.7.0 and newer 
 

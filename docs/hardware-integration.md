@@ -1,3 +1,5 @@
+!!! tip ""
+	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
 
 Reach supports various accessories via it's built-in USB OTG port and UART interface on the DF13 connector
 
