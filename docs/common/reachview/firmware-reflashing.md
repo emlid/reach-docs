@@ -41,7 +41,7 @@ Before flashing:
 
 * Unzip downloaded image
 * Install **[homebrew](http://brew.sh)**
-* Install dependencies with `brew install dfu-util coreutils gnu-getopt`
+* Install dependencies with `brew install dfu-util coreutils gnu-getopt lsusb`
 * Unplug Reach if it's plugged in
 
 To flash:
