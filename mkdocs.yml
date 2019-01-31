@@ -56,4 +56,5 @@ pages:
   - Placing the base: common/tutorials/placing-the-base.md
   - ArduPilot integration: ardupilot-integration.md
   - GPS post-processing: common/tutorials/gps-post-processing.md
+  - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
   - Bluetooth output and Android mock location: common/tutorials/mock-location.md
