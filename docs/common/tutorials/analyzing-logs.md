@@ -2,6 +2,9 @@
 
 This article outlines the basic principles of analyzing raw logs before and after post-processing.
 
+!!! note ""
+	[You can download Emlid version of RTKLib and go through post-processing guide by following this link.](/common/tutorials/gps-post-processing/)
+
 ##Data acquisition and export to PC
 
 Download your base and rover raw data from ReachView. [Record and download logs](/common/reachview/logging/) guide helps you with that. You'll need raw data log in UBX, RINEX or RTCM format for this tutorial.
